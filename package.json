@@ -1,0 +1,22 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\"",
+        "watch": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/irivera2116/social-network-api.git"
+    },
+    "author": "Isaac Rivera",
+    "license": "MIT",
+    "homepage": "https://github.com/irivera2116/social-network-api#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "7.4.2",
+        "nodemon": "3.0.1"
+    }
+}
