@@ -19,6 +19,7 @@
         "express": "^4.17.1",
         "mongodb": "5.7.0",
         "mongoose": "7.4.2",
-        "nodemon": "3.0.1"
+        "nodemon": "3.0.1",
+        "moment": "2.29.4"
     }
 }
