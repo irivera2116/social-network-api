@@ -1,5 +1,5 @@
-// require moment
-const moment = require("moment");
+// require dayjs
+const dayjs = require("dayjs");
 const { Schema, Types } = require("mongoose");
 
 // build the Schema
@@ -21,7 +21,7 @@ const reactionSchema = new Schema(
     createdAt: {
       type: Data,
       default: Date.now,
-      get: (timestamp) => moment(timestamp).format("MMM D, YYYY [at] hh:mm a"),
+      get: (timestamp) => dayjs(timestamp).format("MMM D, YYYY [at] hh:mm a"),
     },
   },
   {
