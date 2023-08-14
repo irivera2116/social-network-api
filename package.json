@@ -15,10 +15,10 @@
     "license": "MIT",
     "homepage": "https://github.com/irivera2116/social-network-api#readme",
     "dependencies": {
+        "api-routes": "^0.1.1",
         "express": "^4.17.1",
+        "mongodb": "5.7.0",
         "mongoose": "7.4.2",
-        "nodemon": "3.0.1",
-        "api-routes": "0.2.1",
-        "mongodb": "5.7.0"
+        "nodemon": "3.0.1"
     }
 }
