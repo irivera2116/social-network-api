@@ -12,10 +12,6 @@ const userSchema = new Schema(
       type: String,
       required: true,
       unique: true,
-      match: [
-        /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?$/,
-        "Must be a valid email",
-      ],
     },
     thoughts: [
       {
